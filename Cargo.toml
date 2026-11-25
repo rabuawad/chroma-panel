@@ -1,0 +1,13 @@
+[package]
+name = "chroma-panel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gpui = { package = "gpui-pre", version = "=0.3.10" }
+gpui_platform = { package = "gpui-pre-platform", version = "=0.3.10", features = ["wayland","x11"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+zbus = "5.19"
+
+[profile.dev]
+debug = 0

@@ -1,0 +1,7 @@
+{
+  "uuid": "chroma-panel@local",
+  "name": "Chroma Panel",
+  "description": "Apply the color filter selected in Chroma Panel to the GNOME desktop.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.chroma-panel"
+}
