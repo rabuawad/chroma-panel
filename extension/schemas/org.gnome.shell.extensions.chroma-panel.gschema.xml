@@ -4,5 +4,9 @@
       <default>(false, 0, 100)</default>
       <summary>Enabled, filter index and intensity percentage</summary>
     </key>
+    <key name="tint" type="u">
+      <default>0xa855f7</default>
+      <summary>Picked tint color in RGB</summary>
+    </key>
   </schema>
 </schemalist>
